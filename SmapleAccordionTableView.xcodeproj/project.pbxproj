@@ -40,7 +40,9 @@
 		E16E645F2850FB270093EB65 = {
 			isa = PBXGroup;
 			children = (
-				E16E646A2850FB280093EB65 /* SmapleAccordionTableView */,
+				E16E64812850FD0A0093EB65 /* Resource */,
+				E16E647F2850FCB80093EB65 /* Example */,
+				E16E64802850FCC50093EB65 /* Source */,
 				E16E64692850FB280093EB65 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,15 +58,37 @@
 		E16E646A2850FB280093EB65 /* SmapleAccordionTableView */ = {
 			isa = PBXGroup;
 			children = (
+			);
+			path = SmapleAccordionTableView;
+			sourceTree = "<group>";
+		};
+		E16E647F2850FCB80093EB65 /* Example */ = {
+			isa = PBXGroup;
+			children = (
 				E16E646B2850FB280093EB65 /* AppDelegate.swift */,
 				E16E646D2850FB280093EB65 /* SceneDelegate.swift */,
 				E16E646F2850FB280093EB65 /* ViewController.swift */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		E16E64802850FCC50093EB65 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E16E646A2850FB280093EB65 /* SmapleAccordionTableView */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		E16E64812850FD0A0093EB65 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
 				E16E64712850FB280093EB65 /* Main.storyboard */,
 				E16E64742850FB320093EB65 /* Assets.xcassets */,
 				E16E64762850FB320093EB65 /* LaunchScreen.storyboard */,
 				E16E64792850FB320093EB65 /* Info.plist */,
 			);
-			path = SmapleAccordionTableView;
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,7 +315,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9D8UR7H9D4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SmapleAccordionTableView/Info.plist;
+				INFOPLIST_FILE = SmapleAccordionTableView/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -320,7 +344,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9D8UR7H9D4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SmapleAccordionTableView/Info.plist;
+				INFOPLIST_FILE = SmapleAccordionTableView/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
