@@ -13,6 +13,9 @@
 		E16E64732850FB280093EB65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16E64712850FB280093EB65 /* Main.storyboard */; };
 		E16E64752850FB320093EB65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E16E64742850FB320093EB65 /* Assets.xcassets */; };
 		E16E64782850FB320093EB65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16E64762850FB320093EB65 /* LaunchScreen.storyboard */; };
+		E16E64832850FF530093EB65 /* AccordionTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16E64822850FF530093EB65 /* AccordionTableView.swift */; };
+		E16E6485285100DC0093EB65 /* AccordionHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16E6484285100DC0093EB65 /* AccordionHeaderFooterView.swift */; };
+		E16E6487285390810093EB65 /* AccordionHeaderFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E16E6486285390810093EB65 /* AccordionHeaderFooterView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		E16E64742850FB320093EB65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E16E64772850FB320093EB65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E16E64792850FB320093EB65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E16E64822850FF530093EB65 /* AccordionTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccordionTableView.swift; sourceTree = "<group>"; };
+		E16E6484285100DC0093EB65 /* AccordionHeaderFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccordionHeaderFooterView.swift; sourceTree = "<group>"; };
+		E16E6486285390810093EB65 /* AccordionHeaderFooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccordionHeaderFooterView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 		E16E646A2850FB280093EB65 /* SmapleAccordionTableView */ = {
 			isa = PBXGroup;
 			children = (
+				E16E64822850FF530093EB65 /* AccordionTableView.swift */,
+				E16E6484285100DC0093EB65 /* AccordionHeaderFooterView.swift */,
+				E16E6486285390810093EB65 /* AccordionHeaderFooterView.xib */,
 			);
 			path = SmapleAccordionTableView;
 			sourceTree = "<group>";
@@ -152,6 +161,7 @@
 				E16E64782850FB320093EB65 /* LaunchScreen.storyboard in Resources */,
 				E16E64752850FB320093EB65 /* Assets.xcassets in Resources */,
 				E16E64732850FB280093EB65 /* Main.storyboard in Resources */,
+				E16E6487285390810093EB65 /* AccordionHeaderFooterView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,7 +172,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E16E64832850FF530093EB65 /* AccordionTableView.swift in Sources */,
 				E16E64702850FB280093EB65 /* ViewController.swift in Sources */,
+				E16E6485285100DC0093EB65 /* AccordionHeaderFooterView.swift in Sources */,
 				E16E646C2850FB280093EB65 /* AppDelegate.swift in Sources */,
 				E16E646E2850FB280093EB65 /* SceneDelegate.swift in Sources */,
 			);
